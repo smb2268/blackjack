@@ -6,3 +6,5 @@ All communication with the API is done through `serviceCommunication.js` and a `
 performs necessary Array manipulation and point calculation.
 I have created a `utils.spec.js` file and begun to convert the app to TS, but have not completed
 the TS migration.
+
+`yarn start` and `yarn test` can be run at the root
