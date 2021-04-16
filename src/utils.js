@@ -27,7 +27,7 @@ export function accumulatePoints(currentTotal: number, currentValue: string): nu
   } else if (faceCards.includes(currentValue)) {
     return currentTotal + 10;
   } else {
-    return currentTotal + parseInt(currentValue);
+    return currentTotal + parseInt(currentValue, 10);
   }
 }
 
